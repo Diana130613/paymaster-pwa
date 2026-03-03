@@ -1,0 +1,53 @@
+.offline-queue {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.offline-queue h3 {
+  color: #856404;
+  margin-bottom: 0.5rem;
+}
+
+.queue-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.queue-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ffeeba;
+}
+
+.queue-item:last-child {
+  border-bottom: none;
+}
+
+.status.pending {
+  background: #ffc107;
+  color: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.sync-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.sync-btn:hover {
+  background: #e0a800;
+}
